@@ -1,16 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flandre.Core", "src\Flandre.Core\Flandre.Core.csproj", "{347EE5CE-CAB6-4FFA-AAF1-D7AA7BC6AFF7}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flandre.Core", "src\Flandre.Core\Flandre.Core.csproj", "{347EE5CE-CAB6-4FFA-AAF1-D7AA7BC6AFF7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flandre.ExampleBot", "src\Flandre.ExampleBot\Flandre.ExampleBot.csproj", "{49D31127-B126-4734-B6E4-C1A6A6A41A5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flandre.Adapters.Konata", "src\Flandre.Adapters.Konata\Flandre.Adapters.Konata.csproj", "{723E8DD2-55F1-4095-93D7-E6AD600A63EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flandre.Adapters.Konata", "src\Flandre.Adapters.Konata\Flandre.Adapters.Konata.csproj", "{723E8DD2-55F1-4095-93D7-E6AD600A63EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flandre.Core.Tests", "tests\Flandre.Core.Tests\Flandre.Core.Tests.csproj", "{22726A9B-8E54-4513-AB04-61B4A34DDC2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flandre.Core.Tests", "tests\Flandre.Core.Tests\Flandre.Core.Tests.csproj", "{22726A9B-8E54-4513-AB04-61B4A34DDC2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flandre.Adapters.Mock", "src\Flandre.Adapters.Mock\Flandre.Adapters.Mock.csproj", "{18C926FE-1F45-421C-A19B-BB914DBD7437}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flandre.Adapters.Mock", "src\Flandre.Adapters.Mock\Flandre.Adapters.Mock.csproj", "{18C926FE-1F45-421C-A19B-BB914DBD7437}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flandre.Adapters.OneBot", "src\Flandre.Adapters.OneBot\Flandre.Adapters.OneBot.csproj", "{49047181-70A7-44F9-BC70-992BD0289C97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flandre.Adapters.OneBot", "src\Flandre.Adapters.OneBot\Flandre.Adapters.OneBot.csproj", "{49047181-70A7-44F9-BC70-992BD0289C97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F31DADB8-0285-4F8C-B4F6-69B74D013ADB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeiBot", "FeiBot\FeiBot.csproj", "{4CD3698B-4394-43BD-B706-936E661144C2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,5 +49,15 @@ Global
 		{49047181-70A7-44F9-BC70-992BD0289C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49047181-70A7-44F9-BC70-992BD0289C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49047181-70A7-44F9-BC70-992BD0289C97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CD3698B-4394-43BD-B706-936E661144C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD3698B-4394-43BD-B706-936E661144C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD3698B-4394-43BD-B706-936E661144C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD3698B-4394-43BD-B706-936E661144C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0D6D804-D4DC-4C49-B25B-DA1D3AC12492}
 	EndGlobalSection
 EndGlobal

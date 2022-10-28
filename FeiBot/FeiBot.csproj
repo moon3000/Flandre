@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\Flandre.Adapters.Konata\Flandre.Adapters.Konata.csproj" />
+    <ProjectReference Include="..\src\Flandre.Adapters.Mock\Flandre.Adapters.Mock.csproj" />
+    <ProjectReference Include="..\src\Flandre.Adapters.OneBot\Flandre.Adapters.OneBot.csproj" />
+    <ProjectReference Include="..\src\Flandre.Core\Flandre.Core.csproj" />
+    <ProjectReference Include="..\tests\Flandre.Core.Tests\Flandre.Core.Tests.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Konata.Core">
+      <HintPath>..\..\Konata.Core\Konata.Core\bin\Debug\net60\Konata.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
